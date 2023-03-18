@@ -1,0 +1,247 @@
+body{
+    background-color: #1F1F1F;
+    font-family: Poppins;
+    color: #FFFFFF;
+}
+.container{
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 27px;
+    margin-left: 59px;
+    margin-right: 48px;
+}
+.forent{
+    color: #FFFFFF;
+    font-size: 48px;
+    width: 159px;
+    height: 72px;
+}
+
+input{
+    color: #FFFFFF;
+    background-color: #262626;
+    border: none;
+    height: 53px;
+    width: 597px;
+    font-size: 24px;
+    border-radius: 15px;
+}
+
+.nav_items{
+    display: flex;
+    justify-content: flex-end;
+    height: 53px;
+    gap:10px;
+}
+button{
+    color: #FFFFFF;
+    background-color: #262626;
+    font-size: 22px;
+    border: none;
+    border-radius: 15px;
+}
+img{
+    padding: 25px;
+}
+.imgbg{
+    background-color: #FECB03;
+    width: 105px;
+    height: 105px;
+    border-radius: 100px;
+    margin: 14px;
+}
+.imgbg2{
+    background-color: #FECB03;
+    width: 279px;
+    height: 279px;
+    border-radius: 1000px;
+    margin: 25px;
+    position: relative;
+}
+.aboutus{
+    color:#FFFFFF;
+    margin: 50px;
+    background-color: #262626;
+    padding: 20px;
+    border-radius:  50px ;
+}
+.aboutus-flex2{
+    display: flex;
+    align-items: center;
+    gap: 26px;
+    font-size: 32px;
+}
+.aboutus-flex1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+.imgbg2 img{
+    padding: 0px;
+    position: absolute;
+    top: -2.5px;
+    left: -2.5px;
+}
+.knowmore{
+    background-color: #FECB03;
+    width: 260px;
+    height: 107px;
+    border-radius: 50px;
+    margin: 30px;
+    position: relative;
+}
+.km {
+    color: #262626;
+    font-size: 35px;
+    position: absolute;
+    top: 25px;
+    left: 40px;
+}
+
+ 
+ 
+.category {
+    position: absolute;
+    width: 1323px;
+    height: 1050px;
+    left: 59px;
+    top: 813px;
+    padding: 1rem 4rem;
+}
+ 
+ 
+.category > h2 {
+    height: 5%;
+    margin: 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 68px;
+    color: #FFFFFF;
+}
+ 
+.category-card-container {
+    box-sizing: border-box;
+    height: 95%;
+    padding: 2rem 0px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: auto;
+}
+ 
+.category-card-container .category-card {
+    box-sizing: border-box;
+    width: 346px;
+    height: 391px;
+    background: #1F1F1F;
+    border: 3px solid #262626;
+    border-radius: 20px;
+    margin: 1.8rem 10px;
+    padding: 1rem;
+    color: #C4C4C4;
+}
+ 
+.category-card > div {
+    display: flex;
+    align-items: center;
+}
+ 
+.category-card .category-card-heading {
+    width: 100%;
+    height: 20%;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 22px;
+}
+ 
+.category-card .category-card-desc {
+    width: 100%;
+    height: 60%;
+    font-size: 18px;
+    line-height: 25px;
+}
+ 
+.category-card .category-card-btn {
+    width: 100%;
+    height: 20%;
+    justify-content: right;
+}
+ 
+.category-card-btn > button {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    width: 169.44px;
+    height: 58px;
+    background: #FECB03;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+ 
+footer {
+    box-sizing: border-box;
+    position: absolute;
+    width: 1370px;
+    height: 283px;
+    left: 60px;
+    top: 1885px;
+    background: #262626;
+    border-radius: 30px;
+    padding: 50px;
+    display: flex;
+ 
+    font-family: 'Open Sans', sans-serif;
+}
+ 
+footer .footer1 {
+    width: 20%;
+    height: 100%;
+    margin-right: 3rem;
+}
+ 
+footer>div:nth-child(1) {
+    width: 50% ;
+}
+ 
+.footer1 > p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(255, 255, 255, 0.8);
+}
+ 
+.footer1 > h2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 68px;
+    color: #FFFFFF;
+    margin: 10px 0px;
+}
+ 
+.footer1 > h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 68px;
+    color: #FFFFFF;
+    margin: 10px 0px;
+}
+ 
+ 
+.footer1 .footer2{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #FFFFFF;
+    margin: 10px 0px;
+    cursor: pointer;
+}
